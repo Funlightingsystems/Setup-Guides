@@ -93,11 +93,7 @@ cd python-lights
 sudo nano main.py
 ```
 10. Connect the lights to the Pi using the proper resistors and other electronic components as follows
-\begin{table}[]
-\begin{tabular}{lllll}
-LED STRIP CONTACT PIN & RASPBERRY PI GPIO PIN &  &  &  \\
-5V                    & 17 (pwm)              &  &  &  \\
-R,G,B                 & GND                   &  &  &  \\
-                      &                       &  &  & 
-\end{tabular}
-\end{table}
+| LED STRIP CONTACT PIN | RASPBERRY PI GPIO PIN |
+|-----------------------|-----------------------|
+| 5V                    | 17 (pwm)              |
+| R,G,B                 | GND                   |
