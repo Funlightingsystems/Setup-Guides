@@ -92,8 +92,11 @@ cd python-lights
 ```
 sudo nano main.py
 ```
-10. Connect the lights to the Pi using the proper resistors and other electronic components as follows
-| LED STRIP CONTACT PIN | RASPBERRY PI GPIO PIN |
-|-----------------------|-----------------------|
-| 5V                    | 17 (pwm)              |
-| R,G,B                 | GND                   |
+10. Connect the lights to the Pi using the proper resistors and other electronic components as follows.
+5V to Pin 17 (pwm).
+R,G,B to GND.
+11. Run the script using the command ```python3 main.py```
+## Troubleshooting
+If you encounter an error try the following:
+1. Verify the IP of the OLA server.
+2. Send some artnet data and try again.
