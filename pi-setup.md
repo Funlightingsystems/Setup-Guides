@@ -30,7 +30,7 @@ sudo systemctl status olad
 ```
 8. After confirming that OLA is running visit the web portal of OLA.
 ```
-http://[YOUR-Pi-IP]:9000
+http://[YOUR-Pi-IP]:9090
 ```
 9. When you are met with the OLA homescreen click the 'Create Universe' button.
 10. For the feilds type the following information.
