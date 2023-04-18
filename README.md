@@ -1,2 +1,2 @@
 # Setup-Guides
-The setup manuals for the Pi, Pico, Arduino, Unity client, Ipad, and Jands StageCL
+The setup manuals for the Pi, and Jands StageCL
